@@ -1,5 +1,6 @@
 :root {
   --white-color: #fff;
+  --background-hero: #06071b;
 }
 
 body {
@@ -84,4 +85,59 @@ img {
   padding-top: 29px;
   padding-bottom: 28px;
   display: inline-block;
+}
+
+/* Hero */
+.hero {
+  padding-top: 145px;
+  padding-bottom: 146px;
+  background-color: var(--background-hero);
+  /* background-image: url(../img/hero-image.png); */
+}
+.hero-caption {
+  color: var(--white-color);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.hero-caption-second {
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+.hero-list {
+  margin-bottom: 62px;
+}
+.hero-list-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.hero-list-text {
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero-btn {
+  border: none;
+  max-width: 200px;
+  padding: 12px 60px;
+  border-radius: 5px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  color: var(--white-color);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 1px solid linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+.hero-btn:hover {
+  background: #06071b;
+  border: 1px solid linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+.hero-btn:focus {
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
 }
