@@ -1,6 +1,7 @@
 :root {
   --white-color: #fff;
   --background-hero: #06071b;
+  --title-cl: #000;
 }
 
 body {
@@ -140,4 +141,62 @@ img {
 }
 .hero-btn:focus {
   background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+.section-features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* background-color: 00C5EB, B544FE; */
+}
+
+.features-title {
+  color: var(--title-cl);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.features-text {
+  color: var(--title-cl);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  margin-bottom: 117px;
+  max-width: 855px;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 54px 492px;
+}
+
+.features-list-item {
+  width: calc((100% - 492px) / 2);
+}
+.features-item-title {
+  color: var(--title-cl);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+  margin-bottom: 13px;
+}
+.features-item-text {
+  color: var(--title-cl);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+.container-features {
+  width: 1003px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
